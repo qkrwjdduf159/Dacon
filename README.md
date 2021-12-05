@@ -11,9 +11,3 @@
 4. 모델은 stacking 을 사용하여 xgboost, lightgbm, catboost, radomforest, ridge 예측을 한 이후에 meta model 로는 LinearRegression 을 사용했습니다.
 5. 모델을 핚번 돌린 이후에 y_pred 를 target 이란 변수로 넣어주고 train 의 target 과 test 의 target 을 가지고 이동평균을 만들어서 avg_column 으로 넣어주고 다시 stacking 을 사용했습니다.
 6. 이동 평균을 사용핚 이후 6 점대로 떨어지게 되었으며 49 등의 기록으로 대회를 마무리 했습니다.
-
-## 3. 생육 기간 예측 경진대회
-
-평가 산식 : RMSE(Root Mean Square Error) 
-
-목표 : 한 쌍의 이미지를 입력 값으로 받아 작물의 생육 기간을 예측하는 모델을 개발하는 것이 목표
