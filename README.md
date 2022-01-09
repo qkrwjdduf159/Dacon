@@ -11,10 +11,3 @@
 4. 모델은 stacking 을 사용하여 xgboost, lightgbm, catboost, radomforest, ridge 예측을 한 이후에 meta model 로는 LinearRegression 을 사용했습니다.
 5. 모델을 핚번 돌린 이후에 y_pred 를 target 이란 변수로 넣어주고 train 의 target 과 test 의 target 을 가지고 이동평균을 만들어서 avg_column 으로 넣어주고 다시 stacking 을 사용했습니다.
 6. 이동 평균을 사용핚 이후 6 점대로 떨어지게 되었으며 49 등의 기록으로 대회를 마무리 했습니다.
-
-## 3. 잡케어 추천 알고리즘 경진대회
-<<<<<<< HEAD
-=======
-## 4. KNOW기반 직업 추천 알고리즘 경진대회
-## 5. 구직자를 위한 기업 트랜드 시각화 경진대회
->>>>>>> edf0d4c493aa8af229ac07f9cd3a9b7fb8628b39
